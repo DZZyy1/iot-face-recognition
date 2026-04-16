@@ -10,3 +10,4 @@ urlpatterns = [
     path('', include(router.urls)),
     path('deteksi/', views.deteksi_pir, name='deteksi-pir'),
 ]
+
